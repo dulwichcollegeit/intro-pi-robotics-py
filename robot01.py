@@ -15,12 +15,12 @@ GPIO.output(9, 0)
 GPIO.output(10, 0)
 
 # right motor forwards 
-GPIO.output(9, 0) 
-GPIO.output(10, 1) 
+GPIO.output(10, 0) 
+GPIO.output(9, 1) 
 # Left Motor
-GPIO.output(7, 0) 
-GPIO.output(8, 1) 
+GPIO.output(8, 0) 
+GPIO.output(7, 1) 
 
-time.sleep(1) 
+time.sleep(0.3) 
 
 GPIO.cleanup()

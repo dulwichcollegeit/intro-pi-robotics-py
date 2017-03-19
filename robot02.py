@@ -1,15 +1,14 @@
 import RPi.GPIO as GPIO 
-# Import the GPIO Library 
 import time 
-# Import the Time library 
+
 # Set the GPIO modes 
 GPIO.setmode(GPIO.BCM) 
 GPIO.setwarnings(False) 
 # Set variables for the GPIO motor pins 
-pinMotorAForwards = 10 
-pinMotorABackwards = 9 
-pinMotorBForwards = 8 
-pinMotorBBackwards = 7 
+pinMotorAForwards = 9 
+pinMotorABackwards = 10 
+pinMotorBForwards = 7
+pinMotorBBackwards = 8 
 # How many times to turn the pin on and off each second 
 Frequency = 20 
 # How long the pin stays on each cycle, as a percent 
